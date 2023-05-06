@@ -48,4 +48,5 @@ public class Employee {
         System.out.println("Maaş Artışı: " + raiseSalary());
         System.out.println("Toplam Maaş: " + (this.salary + bonus() + raiseSalary() - tax()));
     }
+    
 }
